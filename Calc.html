@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/styles.css"></link>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Name is</title>
+</head>
+<body>
+<h3 class="text-center">Calculator</h3>
+<div class="row" id="calculator">
+  <div class="col s10 offset-s1">
+    <div class="container col s4 offset-s4">
+      <h3 id="output" class="answer border"></h3>
+    </div>
+  </div>
+  <div class="text-center">
+    <div class="container">
+      <input class="col s4 l4 offset-l4 input" id="val" type="number"/>
+      <div class="row">
+        <button id="plus" onClick="addFunction()">
+          +
+        </button>
+        <button id="minus" onClick="subtractFunction">
+          -
+        </button>
+      </div>
+      <input id="val2" class="col s4 l4 offset-l4 input" type="number" />
+        <div class="container">
+          <div class="col s4 offset-s3">
+              <button class="btn col s4">7</button>
+              <button class="btn col s4">8</button>
+              <button class="btn col s4">9</button>
+              <button class="btn col s4">4</button>
+              <button class="btn col s4">5</button>
+              <button class="btn col s4">6</button>
+              <button class="btn col s4">1</button>
+              <button class="btn col s4">2</button>
+              <button class="btn col s4">3</button>
+          </div>
+          <div class="col s2">
+            <button class="btn col s6" onClick="addFunction()">+</button>
+            <button class="btn col s6" onClick="subtractFunction()">-</button>
+            <button class="btn col s6">*</button>
+            <button class="btn col s6">/</button>
+            <button class="btn col s6">C</button>
+            <button class="btn col s6">ON</button>
+          </div>
+        </div>
+    </div>
+    </div>
+    <script type = "text/javascript" src="script.js"></script>
+</div>
+
+
+
+
+
+
+
+
+
+</body>

@@ -1,0 +1,21 @@
+.answer{
+  text-align: center;
+  color: red;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.border{
+  border-style:solid;
+  border-color:red;
+}
+
+.input{
+  text-align:center;
+}
+
+.number{
+  float:right;
+}
